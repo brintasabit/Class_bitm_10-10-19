@@ -50,34 +50,39 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.DipositButton);
             this.groupBox2.Controls.Add(this.WithdrawButton);
-            this.groupBox2.Location = new System.Drawing.Point(16, 121);
+            this.groupBox2.Location = new System.Drawing.Point(185, 262);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(392, 95);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(588, 146);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Transaction";
             // 
             // amountTextBox
             // 
-            this.amountTextBox.Location = new System.Drawing.Point(131, 34);
+            this.amountTextBox.Location = new System.Drawing.Point(196, 52);
+            this.amountTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amountTextBox.Name = "amountTextBox";
-            this.amountTextBox.Size = new System.Drawing.Size(183, 20);
+            this.amountTextBox.Size = new System.Drawing.Size(272, 26);
             this.amountTextBox.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 37);
+            this.label3.Location = new System.Drawing.Point(78, 57);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(65, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Amount";
             // 
             // DipositButton
             // 
-            this.DipositButton.Location = new System.Drawing.Point(131, 60);
+            this.DipositButton.Location = new System.Drawing.Point(196, 92);
+            this.DipositButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.DipositButton.Name = "DipositButton";
-            this.DipositButton.Size = new System.Drawing.Size(75, 23);
+            this.DipositButton.Size = new System.Drawing.Size(112, 35);
             this.DipositButton.TabIndex = 13;
             this.DipositButton.Text = "Diposit";
             this.DipositButton.UseVisualStyleBackColor = true;
@@ -85,9 +90,10 @@
             // 
             // WithdrawButton
             // 
-            this.WithdrawButton.Location = new System.Drawing.Point(239, 60);
+            this.WithdrawButton.Location = new System.Drawing.Point(358, 92);
+            this.WithdrawButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.WithdrawButton.Name = "WithdrawButton";
-            this.WithdrawButton.Size = new System.Drawing.Size(75, 23);
+            this.WithdrawButton.Size = new System.Drawing.Size(112, 35);
             this.WithdrawButton.TabIndex = 13;
             this.WithdrawButton.Text = "Withdraw";
             this.WithdrawButton.UseVisualStyleBackColor = true;
@@ -100,9 +106,11 @@
             this.groupBox1.Controls.Add(this.CreateButton);
             this.groupBox1.Controls.Add(this.accountNoTextBox);
             this.groupBox1.Controls.Add(this.customerNameTextBox);
-            this.groupBox1.Location = new System.Drawing.Point(16, 9);
+            this.groupBox1.Location = new System.Drawing.Point(185, 90);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(392, 106);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(588, 163);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Account Creation";
@@ -110,26 +118,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 23);
+            this.label1.Location = new System.Drawing.Point(63, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.Size = new System.Drawing.Size(128, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Account Number";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 52);
+            this.label2.Location = new System.Drawing.Point(63, 80);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(124, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Customer Name";
             // 
             // CreateButton
             // 
-            this.CreateButton.Location = new System.Drawing.Point(256, 75);
+            this.CreateButton.Location = new System.Drawing.Point(384, 115);
+            this.CreateButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CreateButton.Name = "CreateButton";
-            this.CreateButton.Size = new System.Drawing.Size(75, 23);
+            this.CreateButton.Size = new System.Drawing.Size(112, 35);
             this.CreateButton.TabIndex = 13;
             this.CreateButton.Text = "Create";
             this.CreateButton.UseVisualStyleBackColor = true;
@@ -137,23 +148,26 @@
             // 
             // accountNoTextBox
             // 
-            this.accountNoTextBox.Location = new System.Drawing.Point(131, 20);
+            this.accountNoTextBox.Location = new System.Drawing.Point(196, 31);
+            this.accountNoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.accountNoTextBox.Name = "accountNoTextBox";
-            this.accountNoTextBox.Size = new System.Drawing.Size(200, 20);
+            this.accountNoTextBox.Size = new System.Drawing.Size(298, 26);
             this.accountNoTextBox.TabIndex = 12;
             // 
             // customerNameTextBox
             // 
-            this.customerNameTextBox.Location = new System.Drawing.Point(131, 49);
+            this.customerNameTextBox.Location = new System.Drawing.Point(196, 75);
+            this.customerNameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.customerNameTextBox.Name = "customerNameTextBox";
-            this.customerNameTextBox.Size = new System.Drawing.Size(200, 20);
+            this.customerNameTextBox.Size = new System.Drawing.Size(298, 26);
             this.customerNameTextBox.TabIndex = 11;
             // 
             // ReportButton
             // 
-            this.ReportButton.Location = new System.Drawing.Point(163, 222);
+            this.ReportButton.Location = new System.Drawing.Point(405, 418);
+            this.ReportButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ReportButton.Name = "ReportButton";
-            this.ReportButton.Size = new System.Drawing.Size(151, 23);
+            this.ReportButton.Size = new System.Drawing.Size(226, 35);
             this.ReportButton.TabIndex = 15;
             this.ReportButton.Text = "Report";
             this.ReportButton.UseVisualStyleBackColor = true;
@@ -161,12 +175,14 @@
             // 
             // AccountOperationUi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 271);
+            this.ClientSize = new System.Drawing.Size(987, 520);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ReportButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AccountOperationUi";
             this.Text = "Account Operation";
             this.groupBox2.ResumeLayout(false);

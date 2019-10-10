@@ -16,5 +16,16 @@ namespace SalaryCalculatorAppPractice3
         {
             InitializeComponent();
         }
+        Salary salary=new Salary();
+        private void ShowMeSalaryButton_Click(object sender, EventArgs e)
+        {
+            salary.Name = employeeNameTextBox.Text;
+            salary.basic = Convert.ToDouble(basicAmountTextBox.Text);
+            salary.medical = Convert.ToDouble(medicalAllowanceTextBox.Text);
+            salary.home = Convert.ToDouble(homeRentTextBox.Text);
+            MessageBox.Show(
+                salary.Name +" "+ "your salary is: " 
+                            + salary.tSalary());
+        }
     }
 }

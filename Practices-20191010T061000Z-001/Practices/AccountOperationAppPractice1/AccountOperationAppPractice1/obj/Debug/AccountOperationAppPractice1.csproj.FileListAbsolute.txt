@@ -28,3 +28,13 @@ D:\brinta\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOp
 D:\brinta\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.csproj.CoreCompileInputs.cache
 D:\brinta\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.exe
 D:\brinta\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.pdb
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\bin\Debug\AccountOperationAppPractice1.exe.config
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\bin\Debug\AccountOperationAppPractice1.exe
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\bin\Debug\AccountOperationAppPractice1.pdb
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.csprojAssemblyReference.cache
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.AccountOperationUi.resources
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.Properties.Resources.resources
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.csproj.GenerateResource.cache
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.csproj.CoreCompileInputs.cache
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.exe
+D:\BITM\Git\Class_bitm_10-10-19\Practices-20191010T061000Z-001\Practices\AccountOperationAppPractice1\AccountOperationAppPractice1\obj\Debug\AccountOperationAppPractice1.pdb

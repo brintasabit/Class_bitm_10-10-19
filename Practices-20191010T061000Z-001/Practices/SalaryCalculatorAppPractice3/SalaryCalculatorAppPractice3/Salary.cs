@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SalaryCalculatorAppPractice3
+{
+    public class Salary
+    {
+        public string Name { get; set; }
+        public double basic;
+        public double home;
+        public double medical;
+
+        public double tSalary()
+        {
+            double tSalary = basic + home + medical;
+            return tSalary;
+        }
+    }
+}

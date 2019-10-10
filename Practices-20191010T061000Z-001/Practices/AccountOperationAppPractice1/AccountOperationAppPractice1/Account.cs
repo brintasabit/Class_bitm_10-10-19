@@ -11,23 +11,26 @@ namespace AccountOperationAppPractice1
     {
         public string accountNumber { get; set; }
         public string customerName { get; set; }
+        public int balance;
+        public int deposit;
+        public int withdraw;
 
         public int Deposit()
         {
-            int dMoney=0;
-            return dMoney;
+            return deposit;
         }
 
         public int Withdraw()
         {
-            int wMoney=0;
-            return wMoney;
+            //int tBalance = deposit - withdraw;
+            return withdraw;
         }
 
-       /* public int Balance()
+        public int TotalBalance()
         {
-            
-        }*/
+            balance = deposit - withdraw;
+            return balance;
+        }
        
     }
 }
