@@ -12,11 +12,11 @@ namespace SalaryCalculatorAppPractice3
         public double basic;
         public double home;
         public double medical;
-
+        public double totalSalary;
         public double tSalary()
         {
-            double tSalary = basic + home + medical;
-            return tSalary;
+            totalSalary = basic + home + medical;
+            return totalSalary;
         }
     }
 }
