@@ -20,8 +20,8 @@ namespace AccountOperationAppPractice1
         Account account = new Account();
         private void CreateButton_Click(object sender, EventArgs e)
         {
-            account.accountNumber=accountNoTextBox.Text;
-            account.customerName =customerNameTextBox.Text ;
+            account.accountNumber = accountNoTextBox.Text;
+            account.customerName = customerNameTextBox.Text;
             MessageBox.Show("Account Created!");
         }
 
@@ -41,9 +41,9 @@ namespace AccountOperationAppPractice1
 
         private void ReportButton_Click(object sender, EventArgs e)
         {
-            
-            MessageBox.Show(account.customerName+","+"Your Account Number: "+
-                            account.accountNumber+" & It's Balance: "+ account.TotalBalance());
+
+            MessageBox.Show(account.customerName + "," + "Your Account Number: " +
+                            account.accountNumber + " & It's Balance: " + account.TotalBalance());
         }
     }
 }

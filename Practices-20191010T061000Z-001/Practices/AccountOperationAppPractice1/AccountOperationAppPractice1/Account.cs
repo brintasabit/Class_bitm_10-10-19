@@ -31,6 +31,6 @@ namespace AccountOperationAppPractice1
             balance = deposit - withdraw;
             return balance;
         }
-       
+
     }
 }
