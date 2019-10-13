@@ -9,21 +9,49 @@ namespace AccountOperationAppPractice1
 {
     public class Account
     {
-        public string accountNumber { get; set; }
-        public string customerName { get; set; }
-        public int balance;
-        public int deposit;
-        public int withdraw;
+        private string accountNumber;
+        private string customerName;
+        private int balance;
+        private int deposit;
+        private int withdraw;
 
-        public int Deposit()
+        public Account()
         {
-            return deposit;
+
         }
 
-        public int Withdraw()
+        public Account(string accountNumber,string customerName)
+        {
+            this.accountNumber = accountNumber;
+            this.customerName = customerName;
+        }
+
+
+        public int Deposit
+        {
+            //return deposit;
+            set { this.deposit = value; }
+            get { return this.deposit; }
+        }
+
+        public int Withdraw
         {
             //int tBalance = deposit - withdraw;
-            return withdraw;
+            // return withdraw;
+            set { this.withdraw = value; }
+            get { return this.withdraw; }
+        }
+
+        public string AccountNumber
+        {
+            set { this.accountNumber = value; }
+            get { return this.accountNumber; }
+        }
+
+        public string CustomerName
+        {
+            set { this.customerName = value; }
+            get { return this.customerName; }
         }
 
         public int TotalBalance()
